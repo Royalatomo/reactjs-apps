@@ -1,3 +1,11 @@
+# How to install dependencies and launch the application
+
+Type the following commands :-
+
+* npm i (same directory where the project is present)
+* npm start
+
+
 # How to setup your NewsApi key:-
 
 * Go to https://newsapi.org/ and get your API key
