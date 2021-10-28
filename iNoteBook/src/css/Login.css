@@ -1,0 +1,217 @@
+.login-main-div, .register-main-div {
+    padding: 20px 0px;
+}
+
+.btn-back {
+    border: none;
+    border: 5px solid black;
+    font-size: 3rem;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 3px 15px;
+    border-radius: 15px;
+    margin: 20px 21px;
+    text-decoration: none;
+}
+
+.btn-back:hover {
+    box-shadow: 0 0 15px white;
+    background-color: #de0000;
+    cursor: pointer;
+}
+
+.login-div, .register-div {
+    display: flex;
+    justify-content: center;
+}
+
+.main-box {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    border: 10px solid black;
+    margin: 0px 80px;
+    padding: 8vh 70px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 60px #ffffff;
+    min-width: 760px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../components/images/register.jpeg');
+    background-position: center;
+    background-image: cover;
+    margin-bottom: 40px;
+}
+
+.left-side {
+    margin-right: 30px;
+}
+
+.img-display-box img {
+    height: 330px;
+    width: 330px;
+    border-radius: 50%;
+    border: 5px solid;
+}
+
+.message, .message2 {
+    display: flex;
+    align-items: center;
+}
+
+.message p, .message2 p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 10px 0px 0px;
+}
+
+.message .link, .message2 .link {
+    text-decoration: underline;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #01aee2;
+    font-weight: 700;
+}
+
+.message a:hover, .message2 a:hover {
+    color: rgb(0, 61, 48);
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 40px;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.input-form {
+    font-size: 2.5rem;
+    padding: 25px 15px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    color: #000000;
+    margin: 15px 0px;
+    height: 40px;
+    box-shadow: 0px 0px 15px #000000;
+}
+
+.input-form:focus {
+    outline: none;
+}
+
+.login-button, .register-button {
+    margin: 30px 0px;
+    display: flex;
+    width: 100%
+}
+
+.login, .register {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.login:hover, .register:hover {
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    cursor: pointer;
+    color: black;
+    background-color: white !important;
+}
+
+.message2 {
+    display: none;
+}
+
+.miss-match {
+    margin: 0;
+    color: red;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+/* Media Querry */
+
+@media only screen and (max-width: 1300px) {
+    .main-box {
+        position: relative;
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-box {
+        padding: 40px 70px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-box {
+        padding: 40px 70px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .left-side {
+        display: none;
+    }
+    .right-side {
+        margin-left: 0;
+    }
+    .message2 {
+        display: initial;
+        display: flex;
+        width: 400px;
+    }
+    .main-box {
+        margin-top: 30px;
+        padding: 35px 20px;
+        min-width: 475px;
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .btn-back {
+        font-size: 2.5rem;
+    }
+    .main-box {
+        margin-top: 30px;
+        min-width: 475px;
+        border: none;
+        margin: 10px;
+        padding: 10px;
+        padding-left: 0px;
+        border-radius: 0px;
+        background-image: none;
+        box-shadow: none;
+    }
+    .right-side {
+        margin-left: 40px;
+    }
+    .login-div, .register-div {
+        height: 70%;
+        width: 100%;
+    }
+    .input-form {
+        width: 80vw;
+    }
+    .login, .register {
+        width: 80vw
+    }
+    .main-box {
+        height: fit-content;
+    }
+}

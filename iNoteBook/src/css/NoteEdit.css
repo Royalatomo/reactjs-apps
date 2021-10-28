@@ -1,0 +1,75 @@
+.editnote-main-div {
+    position: absolute;
+    z-index: 2;
+}
+
+.editnote-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    left: 0;
+    margin-left: 5%;
+    border: 2px solid black;
+    padding: 20px 0;
+    background: palevioletred;
+}
+
+.editnote-heading-box, .editnote-content-box {
+    margin: 20px 0;
+    width: 100%;
+    font-weight: 700;
+    padding: 0 5%;
+}
+
+.editnote-heading, .editnote-content {
+    width: 100%;
+    resize: vertical;
+    border: none;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 10px;
+    margin: 0px;
+    height: 60px;
+}
+
+.editnote-content {
+    height: 200px;
+}
+
+.editnote-close-button {
+    position: relative;
+    width: 100%;
+    text-align: end;
+    height: 0px;
+    top: -40px;
+    right: -15px;
+}
+
+.editnote-close-button i {
+    font-size: 4rem;
+    color: red;
+    background: white;
+    border-radius: 50%;
+}
+
+.editnote-close-button i:hover {
+    cursor: pointer;
+}
+
+.editnote-save-box {
+    width: 100%;
+    padding: 0 15%;
+}
+
+.editnote-save-button {
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 700;
+    background: green;
+    border: none;
+    color: white;
+    border: 4px solid black;
+}

@@ -1,0 +1,87 @@
+.home-nav-var {}
+
+.site-menu .li a:hover {
+    cursor: pointer;
+}
+
+.active {
+    background: #0b75ff73;
+    padding: 5px 20px;
+    border-radius: 30px;
+    /* margin: 0; */
+}
+
+.home-right-button-link:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.home-right-button-link:hover {
+    background: #62a2f5;
+    padding: 5px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.active:hover {
+    background: #0b75ff73;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+
+.home-right-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-toggle {
+    display: none;
+    outline: none;
+    background: #3f9ffb;
+    border: none;
+    color: white;
+}
+
+.dropdown-toggle i {
+    margin-right: 5px;
+    font-size: 2rem;
+    color: white;
+}
+
+.home-left-buttons p {
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.home-nav-bar {
+    background-color: #009ffb;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.home-left-button-link, .home-right-button-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0px 15px;
+}
+
+.home-right-buttons {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .dropdown-toggle {
+        display: initial
+    }
+    .home-nav-big-buttons {
+        display: none;
+    }
+}

@@ -1,0 +1,118 @@
+.home-main-body {
+    display: flex;
+    justify-content: center;
+}
+
+.home-take-note-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.home-input-box, .home-toggel-box {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px black;
+    margin-top: 30px;
+}
+
+.home-toggel-box {
+    display: flex;
+    height: 90px;
+}
+
+.home-toggel-box textarea {
+    font-size: 2rem;
+}
+
+.home-input-form, .home-toggel-form-input {
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    width: 40vw;
+    resize: vertical;
+    outline: none;
+}
+
+.home-note-title-taker {
+    margin-top: 15px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.home-note-body-taker {
+    border-bottom: 2px solid gray;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.home-note-tag-taker {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.home-input-box-button {
+    width: 100%;
+    text-align: end;
+    margin-right: 15px;
+    height: fit-content;
+    margin-bottom: 15px;
+}
+
+.home-input-box-button .home-input-box-button-close, .home-input-box-button .home-input-box-button-save {
+    background: #444444;
+    border: 3px solid #cd08ff;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.icon-close2 {
+    color: #6d6d6d !important;
+}
+
+.home-input-box-button .home-input-box-button-save {
+    margin-right: 15px;
+    background: green;
+}
+
+.home-input-box-button span:hover {
+    cursor: pointer;
+}
+
+.home-toggel-form-input {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.home-toggel-box {
+    padding: 10px;
+    padding-bottom: 0;
+    box-shadow: 0px 0px 10px black;
+}
+
+.collapseButton {
+    display: none;
+}
+
+.home-notes-area {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-input-form, .home-toggel-form-input {
+        width: 60vw;
+    }
+}
