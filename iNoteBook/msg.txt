@@ -1,1 +1,2 @@
-ASDF
+Database -> node index.js (Backend server start)
+npm start
