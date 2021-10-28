@@ -1,0 +1,2 @@
+1) Dynamic image in login and register page
+2) Add bin to store deleted notes so that user can recover it if he wanted
